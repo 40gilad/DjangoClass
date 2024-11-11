@@ -1,0 +1,52 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+
+# Django
+*.log
+db.sqlite3
+/media
+
+# Environment
+.env
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Migrations
+**/migrations/*
+
+# Static & Media Files
+/static/
+media/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
